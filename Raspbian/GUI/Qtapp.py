@@ -27,7 +27,7 @@ class MyApp(QMainWindow):
         
         self.setWindowTitle('My Qt App')
         self.setWindowIcon(QIcon('box.png'))
-        self.setGeometry(100, 100, 640, 300)
+        self.setGeometry(100, 100, 640, 400)
         self.show()
         
     def btn_clicked(self):
