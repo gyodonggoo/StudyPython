@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 faceCascade = cv2.CascadeClassifier('./Raspbian/facedetection/haarcascades/haarcascade_frontalface_default.xml')
-eyeCascade = cv2.CascadeClassifier('./Raspbian/facedetection/haarcascades/haarcascade_eye_tree_eyeglasses.xml')
+eyeCascade = cv2.CascadeClassifier('./Raspbian/facedetection/haarcascades/haarcascade_eye.xml')
 
 
 cap = cv2.VideoCapture(0)
